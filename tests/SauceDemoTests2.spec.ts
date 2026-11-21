@@ -42,7 +42,7 @@ test('ValidateCartItem', async ({page, loginpage, productlistpage, cartpage})=>{
 
 //const cartpage = new CartPage(page);
     expect (await cartpage.cartProduct).toHaveText('Sauce Labs Backpack');
-    await page.waitForTimeout(3000);
+    await page.waitForTimeout(2000);
 
 })
 
